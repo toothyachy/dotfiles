@@ -70,3 +70,7 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# Add google cloud cli to path
+export PATH="/Users/spacemunkei/google-cloud-sdk/bin:$PATH"
+eval "$(direnv hook zsh)"
